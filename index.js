@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "~Ma009090",
+  password: "helloworld",
   database: "employeesDB"
 });
 
@@ -76,7 +76,7 @@ function firstPrompt() {
     });
 }
 
-//////////////////========================= 1."View Employees"/ READ all, SELECT * FROM
+//
 
 function viewEmployee() {
   console.log("Viewing employees\n");
