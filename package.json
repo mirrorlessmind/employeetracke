@@ -1,0 +1,29 @@
+{
+  "name": "teammanager",
+  "version": "1.0.0",
+  "description": "Track employees by department",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirrorlessmind/employeetracke.git"
+  },
+  "keywords": [
+    "fun",
+    "sql",
+    "database"
+  ],
+  "author": "Cigi Tipton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirrorlessmind/employeetracke/issues"
+  },
+  "homepage": "https://github.com/mirrorlessmind/employeetracke#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5",
+    "util": "^0.12.3"
+  }
+}
