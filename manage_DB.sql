@@ -5,7 +5,7 @@ CREATE DATABASE manage_db;
 USE manage_db;
 
 CREATE TABLE department (
-id INT NOT NUL,
+id INT NOT NULL,
 name VARCHAR(45) NOT NULL,
 PRIMARY KEY (id)
 );
