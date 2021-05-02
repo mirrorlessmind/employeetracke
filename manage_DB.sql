@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS manage_DB;
+DROP DATABASE IF EXISTS manage_db;
 
-CREATE DATABASE manage_DB;
+CREATE DATABASE manage_db;
 
-USE manage_DB;
+USE manage_db;
 
 CREATE TABLE department (
 id INT NOT NUL,
