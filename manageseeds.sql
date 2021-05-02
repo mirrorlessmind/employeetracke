@@ -1,4 +1,4 @@
-USE manage_DB
+USE manage_db
 
 INSERT INTO department (id, name) 
 VALUES 
@@ -6,17 +6,7 @@ VALUES
   (22, 'sales'),
   (28, 'creative');
 
-INSERT INTO manager (id, firstName, lastName, roleId, departmentId)
-VALUES
-
-  (30, 'Bubba', 'Jones', 2, 2),
-  (31, 'Mary', 'Esnaul', 2, 3),
-  (32, 'Former', 'Freakshow', 2, 4),
-  (33, 'Rose', 'Lover', 2, 4),
-  (34, 'Scary', 'Clown', 1, 6),
-  (35, 'Stephen', 'King', 6, 7);
-
-INSERT INTO roles (id, title, salary, departmentId)
+INSERT INTO roles (id, title, salary, deptId)
 VALUES
   (200, 'traffic coordinator', 500, 9),
   (201, 'sales director', 450, 5),
@@ -25,7 +15,7 @@ VALUES
   (204, 'foreign sales', 150000, 5),
   (205, 'operations manager', 85000, 9);
 
-INSERT INTO employee (id, firstName, lastName, roleId, managerId)
+INSERT INTO employee (id, firstName, lastName, roleID, managerID)
 VALUES
 
   (8, 'Paul', 'Henson', 2, 2),
