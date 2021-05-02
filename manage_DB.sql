@@ -1,0 +1,34 @@
+DROP DATABASE IF EXISTS manage_DB;
+
+CREATE DATABASE manage_DB;
+
+USE manage_DB;
+
+CREATE TABLE department (
+id INT PRIMARY KEY,
+name VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE roles (
+id INT PRIMARY KEY,
+title VARCHAR(30) NOT NULL,
+salary integer NOT NULL,
+departmentID INT
+);
+
+CREATE TABLE employee (
+id INT PRIMARY KEY,
+firstName VARCHAR(30) NOT NULL,
+lastName VARCHAR(30) NOT NULL,
+roleID INT NOT NULL,
+managerID INT NULL
+);
+
+CREATE TABLE manager (
+id INT PRIMARY KEY,
+firstName VARCHAR(30) NOT NULL,
+lastName VARCHAR(30) NOT NULL,
+roleID INT NOT NULL,
+departmentID INT NOT NULL
+);
+
