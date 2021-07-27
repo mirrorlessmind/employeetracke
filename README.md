@@ -20,9 +20,6 @@ Utiliing MySQL user may manipulate the database from the command line.
 ## Link to Video & App:
 Cigi's Walkthrough "https://vimeo.com/538257370/1be3a0b5e6"
 
-Heroku App Deployed
-
-<a href="https://young-lowlands-81338.herokuapp.com/notes" rel="nofollow">LifeNotes</a>
 
 ## Contributing Partners ✨
 TAs, tutorials, tea
